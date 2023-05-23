@@ -1,0 +1,35 @@
+@media(max-width: 578px){
+    .cabecalho{
+        align-items: center;
+       justify-content:center ;
+       margin-top: 10px;
+    }
+
+    .cabecalho .titulo{
+        font-size: larger;
+        font-weight: bolder;
+    
+    }
+
+    .navegacao .menu{
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 30px 5px;
+        text-align: center;
+        font-size: calc(0.5em + 0.6vw);
+    }
+
+    .cabecalho .navegacao .menu li{
+        flex-direction: column;
+        height: -10px;
+        margin: 20px  60px;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    .cabecalho .navegacao .menu .botao{
+        margin: 10px 45px;
+    }
+
+}
